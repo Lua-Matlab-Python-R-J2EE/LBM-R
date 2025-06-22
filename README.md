@@ -1,2 +1,2 @@
 # LBM-Python
-Comparison of ten predictive equations for estimating lean body mass with dual-energy X-ray absorptiometry in older patients
+This code evaluates ten mathematical equations for predicting lean body mass (LBM) by comparing their outputs against dual-energy X-ray absorptiometry (DXA) measurements, using randomly generated synthetic data as input.
