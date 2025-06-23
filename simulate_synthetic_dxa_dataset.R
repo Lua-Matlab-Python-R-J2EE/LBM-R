@@ -20,25 +20,20 @@
 # wtn09:      Body wight (kg)
 # htn09:      Height (cm)
 # dxa_lbm_kg: Lean body mass in kg (derived from DXAWBLN09)
-#
 # DXASBBMC09: Subtotal bone mineral content **excluding head** (g)
 #             Codes: 7777 = Not attended Clinic/test not done, 9999 = Unknown
 # DXAWBBMC09: Whole Body Bone Mineral Content (g)
 #             Codes: 7777 = Not attended Clinic/test not done, 9999 = Unknown
-#
 # DXASBFT09:  Subtotal Fat mass **excluding head** (g)
 #             Codes: 777777 = Not attended Clinic/test not done, 999999 = Unknown
 # DXAWBFT09:  Whole Body Fat Mass (g)
 #             Codes: 777777 = Not attended Clinic/test not done, 999999 = Unknown
-#
 # DXASBLN09:  Subtotal Lean mass **excluding head** (g)
 #             Codes: 777777 = Not attended Clinic/test not done, 999999 = Unknown
 # DXAWBLN09:  Whole Body Lean Mass (g)
 #             Codes: 777777 = Not attended Clinic/test not done, 999999 = Unknown
-#
 # DXASBMS09:  Subtotal Body Mass (Fat + Lean, **excluding head)** (g)
 # DXAWBMS09:  Whole Body Mass (Fat + Lean) (g)
-#
 # bmi09:      Body Mass Index (kg/m²), calculated from weight and height
 # inf:        Random binary indicator (e.g., for infection status or flag)
 #
