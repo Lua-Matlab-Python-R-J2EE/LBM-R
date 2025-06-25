@@ -98,7 +98,8 @@ generate_values <- function(n, mean, min, max, sd=NULL) {
 # HELPER FUNCTION 2: To generate  dummy DXA values with approximate logic
 generate_dxa_values <- function(n, min_val, max_val, mising_code, unknown_code){
     # Generate n values from uniform distribution between min/max
-    values <- runif( n, min=min_val, max=max_val )
+    #values <- runif( n, min=min_val, max=max_val )
+    values <- rnorm( n, mean=0.5*(min_val+max_val), sd=(max_val-min_val)/6 )
 
     # Inject 2% of n to be missing enteries
     idx_missing <- sample( 1:n, size=round(0.02*n) ) 
@@ -184,11 +185,11 @@ age <- generate_values( n_total, mean=63, min=60, max=65 )
 
 # Generate weight based on sex and using generate_values() fn, given min/max/mean
 weight <- ifelse( sex==1, generate_values( n_total, mean=85.3, min=50.6, max=128.5 ), 
-                         generate_values( n_total, mean=72.3, min=38.0, max=136.5 ))
+                          generate_values( n_total, mean=72.3, min=38.0, max=136.5 ))
 
 # Generate height based on sex and using generate_values() fn, given min/max/mean
 height <- ifelse( sex==1, generate_values( n_total, mean=175.3, min=156.7, max=195.7 ), 
-                         generate_values( n_total, mean=162.2, min=144.3, max=179.0 ))
+                          generate_values( n_total, mean=162.2, min=144.3, max=179.0 ))
 
 # Compute BMD = weight(kg)/ (height(m))^2, round to 2 decimal places
 bmi09 <- round( weight / (height/100)^2 , 2) 
