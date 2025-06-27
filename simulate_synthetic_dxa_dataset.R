@@ -148,17 +148,23 @@ vew_error_rows <- function( df, dx_columns, error_codes, show_sample=TRUE, sampl
 #
 #
 # HELPER FUNCTION 4: To save the dataframe as a CSV file, if filename is provided.
-#                    It also returns the dataframe.
-save_to_csv <- function( df, filename=NULL, row_names=FALSE ){
-    if (!is.null(filename))
-    {
-        write.csv(df, file=filename, row.names=row_names)
-        cat("Data saves to ", filename, "\n")
-    } else 
-    {
-        cat("NO filename provided; data not saved.\n")
-    }
-    invisible(df)
+#                    It also returns the dataframe. Checks if the code is run on
+#                    local enviorment or colab, and saves the file accordingly.                             
+save_to_csv <- function(df, filename = NULL, row_names = FALSE) {  
+  # Detect colab
+  is_colab <- Sys.getenv("COLAB_GPU") != "" || grepl("/content", getwd()) 
+  
+  base_dir <- if (is_colab) "/content" else getwd() #set base dir based on env
+  
+  if (!is.null(filename)) {
+    full_path <- file.path(base_dir, filename) 
+    write.csv(df, file = full_path, row.names = row_names)# Save the file
+    cat("Data saved to:", full_path, "\n")
+  } else {
+    cat("No filename provided; data not saved.\n")
+  }
+
+  invisible(df)
 }
 #
 #
