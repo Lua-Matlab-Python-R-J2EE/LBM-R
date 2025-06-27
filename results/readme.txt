@@ -1,0 +1,1 @@
+### This folder contains example result figures (in .jpg format) produced by the analysis code. These images illustrate typical outputs of the modeling process, including correlation results (printed in the console) and Bland–Altman plots (saved as image files).
