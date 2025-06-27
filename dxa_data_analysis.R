@@ -55,6 +55,18 @@
 #   - Files:   Bland–Altman plots as `.jpg` for All, Male, and Female groups.
 #              These are saved in the current working directory.
 #
+# FUNCTIONS:
+# 1.  clearAll()               – Clears the global environment and closes plots.
+# 2.  checkData()              – Provides summary info (names, structure, head, tail).
+# 3.  countSex()               – Counts number of male and female participants.
+# 4.  demoData()               – Summarizes demographics (height, weight, age).
+# 5.  baPlotFun()              – Generates and saves Bland–Altman plots.
+# 6.  meanSemCiFun()           – Computes mean difference, standard error of the mean (SEM), and 95% confidence interval (CI).
+# 7.  read_dataset()           – Reads the simulated dataset from local or Colab path.
+# 8.  clean_dxa_dataset()      – Removes rows with error codes from specified columns.
+# 9.  validate_lbm_columns()   – Validates LBM estimates from equations against DXA.
+# 10. plot_lbm_correlations()  – Plots correlations between predicted and reference LBM.
+#
 # USAGE:
 #   - Can be run in RStudio, base R, or Google Colab (auto-detects Colab path).
 #   - Ensure `simulated_dxa_dataset.csv` is in your working directory.
