@@ -1,0 +1,90 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+*.tar.gz
+
+# Output files from R CMD check
+*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Quarto (if used)
+*.qmd
+*_files/
+
+# VS Code settings (optional)
+.vscode/
+
+# Produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token (e.g., httr)
+.httr-oauth
+
+# knitr and R Markdown default cache directories
+*_cache/
+**/*_cache/
+cache/
+
+# Temporary files created by R Markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# pkgdown site
+docs/
+
+# Translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+# Compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages and archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
