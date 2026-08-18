@@ -5,13 +5,15 @@
 
 - Men LBM = 0.32810*W(kg) + 0.33929*H(cm) – 29.5336
 - Women LBM = 0.29569*W(kg) + 0.41813*H(cm) – 43.2933
+
 where, W(kg) is weight in kilograms and H(cm) is height in centimeters.
 
 
 **Equation 2 by Hume & Weyers (1971) [2]:** The equation predicts TBW based on body weight, height and sex as the independent variables based on data from a UK population. The LBM was predicted as a fixed percentage (%) of TBW as TBW*100/73 as follows:
 
-Men LBM = [0.296785*W(kg) + 0.194786*H(cm) – 14.012934]*100/73
-Women LBM = [0.183809*W(kg) + 0.344547*H(cm) – 35.270121]*100/73
+- Men LBM = [0.296785*W(kg) + 0.194786*H(cm) – 14.012934]*100/73
+- Women LBM = [0.183809*W(kg) + 0.344547*H(cm) – 35.270121]*100/73
+
 where, W(kg) is weight in kilograms. H(cm) is height in centimeters.
 
 
@@ -20,6 +22,7 @@ from the whole body weight as follows:
 
 - Men LBM = W(kg) – 1.281*[W(kg)/H(m)^2 – 10.13]*W(kg)/100
 - Women LBM = W(kg) – 1.48*[W(kg)/H(m)^2 – 7.0]*W(kg)/100
+
 where, W(kg) is weight in kilograms, and H(m) is height in meters.
 
 
@@ -27,6 +30,7 @@ where, W(kg) is weight in kilograms, and H(m) is height in meters.
 
 - Men LBM = 1.10*W(kg) – 128*[W(kg)/H(cm)]^2
 - Women LBM = 1.07*W(kg) – 148*[W(kg)/H(cm)]^2
+
 where, W(kg) is the weight in kilograms. H(cm) is height in centimeters.
 
 
@@ -34,6 +38,7 @@ where, W(kg) is the weight in kilograms. H(cm) is height in centimeters.
 
 - Men LBM = 0.407*W(kg) + 26.7*H(m) - 19.2
 - Women LBM = 0.252*W(kg) + 47.3*H(m) – 48.3
+
 where, W(kg) is the weight in kilograms and H(m) is height in meters.
 
 
@@ -41,6 +46,7 @@ where, W(kg) is the weight in kilograms and H(m) is height in meters.
 follows:
 
 - LBM = W(kg) – [1.2*BMI + 0.23*AGE(yrs) – 10.8*SEX – 5.4]*W(kg)/100
+
 where, W(kg) is the weight in kilograms, AGE(yrs) is the age in years, SEX uses value 1 for men and 0 is for women, and BMI is body mass index in kg/m 2. This equation is for adults aged above 15 years. A separate equation for children aged 15 years or younger was derived but not mentioned here for comparison.
 
 
@@ -48,6 +54,7 @@ where, W(kg) is the weight in kilograms, AGE(yrs) is the age in years, SEX uses 
 
 - Men LBM = 48 + 1.06*[H(cm) – 152]
 - Women LBM = 45.5 + 0.91*[H(cm) – 152]
+
 where, H(cm) is height centimeters.
 
 
@@ -55,6 +62,7 @@ where, H(cm) is height centimeters.
 
 - Men LBM = 1.10*W(kg) – 120*[W(kg)/H(cm)]^2
 - Women LBM = 1.07*W(kg) – 148*[W(kg)/H(cm)]^2
+
 where, W(kg) is the weight in kilograms and H(cm) is height in centimeters. The incorrect version of the James & Waterlow equation is still being used in the literature [12, 13].
 
 
@@ -62,6 +70,7 @@ where, W(kg) is the weight in kilograms and H(cm) is height in centimeters. The 
 considered negligible; (2) a high correlation was observed between %BF measured from DXA and the 4C model for both sexes in White and African Americans. The equation predicts %BF based on weight, BMI, age and sex as the independent variables. The LBM was calculated by subtracting BF weight from the whole body weight as follows: 
 
 - LBM = W(kg) – [64.5 – 848/BMI + 0.079*AGE(yrs) – 16.4*SEX + 0.05*SEX*AGE(yrs) + 39*SEX/BMI]*W(kg)/100
+
 where, W(kg) is weight in kilograms, AGE(yrs) is the age in years, SEX uses value 1 for men and 0 is for women, and BMI is body mass index in kg/m 2. No subjects with Asian ethnicity were included in the model to obtain this equation.
 
 
@@ -69,6 +78,7 @@ where, W(kg) is weight in kilograms, AGE(yrs) is the age in years, SEX uses valu
 
 - Men LBM = 9270*W(kg)/(6680 + 216*BMI)
 - Women LBM = 9270*W(kg)/(8780 + 244*BMI)
+
 where, W(kg) is weight in kilograms and BMI is body mass index in kg/m2.
 
 
