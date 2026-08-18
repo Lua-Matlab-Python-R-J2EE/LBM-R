@@ -82,6 +82,8 @@ where, W(kg) is weight in kilograms, AGE(yrs) is the age in years, SEX uses valu
 where, W(kg) is weight in kilograms and BMI is body mass index in kg/m2.
 
 
+To see the figures SUPPLEMENTAL FIGURE 1, SUPPLEMENTAL FIGURE 2, SUPPLEMENTAL FIGURE 3, and SUPPLEMENTAL FIGURE 4, see the Article_BJR_20210378-Supplement.pdf document.
+
 **SUPPLEMENTAL FIGURE 1:** (A) Scatter and (B) Bland-Altman plot of the relationship between lean body mass measured by dual-energy X-ray absorptiometry
 (DXA) and predicted by Equation 1. (C) and (D): Same for Equation 2.
 
